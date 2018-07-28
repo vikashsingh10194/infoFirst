@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 56.695 sec <<< FAILURE! - in TestSuite
+openBrowser(com.orbitz.com.pageobjects.BaseClass)  Time elapsed: 1.566 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.orbitz.com.pageobjects.BaseClass.openBrowser(BaseClass.java:51)
+
+openBrowser(com.orbitz.com.pageobjects.BaseClass)  Time elapsed: 55.009 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.orbitz.com.pageobjects.BaseClass.openBrowser(BaseClass.java:51)
+

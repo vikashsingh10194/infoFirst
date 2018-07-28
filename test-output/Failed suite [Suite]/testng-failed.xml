@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" parallel="none">
+  <parameter name="browser" value="firefox"/>
+  <listeners>
+    <listener class-name="com.orbitz.utils.TestListeners"/>
+  </listeners>
+  <test name="ChromeTest(failed)(failed)" parallel="none">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.orbitz.com.pageobjects.BaseClass">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="bookFlight"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.orbitz.com.pageobjects.BaseClass -->
+    </classes>
+  </test> <!-- ChromeTest(failed)(failed) -->
+  <test name="FirefoxTest(failed)(failed)" parallel="none">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.orbitz.com.pageobjects.BaseClass">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="bookFlight"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.orbitz.com.pageobjects.BaseClass -->
+    </classes>
+  </test> <!-- FirefoxTest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
